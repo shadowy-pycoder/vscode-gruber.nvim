@@ -56,8 +56,8 @@ local subtle = "#908caa"
 -- vscode colors overrides
 local override_blue_green = "#EBC06D"
 local override_light_blue = "#c1b9b5"
-local override_dark_blue = "#668A8E" --"#598489"
-local override_dark_pink = "#668A8E" --"#598489"
+local override_dark_blue = "#71989C" --"#668A8E" "#598489"
+local override_dark_pink = "#71989C" --"#668A8E" "#598489"
 
 ---@diagnostic disable
 local theme = lush(function(injected_functions)
