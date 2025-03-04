@@ -884,6 +884,7 @@ local theme = lush(function(injected_functions)
 
 		-- yaml
 		sym("@property.yaml")({ fg = dark_blue }),
+		sym("@boolean.yaml")({ fg = dark_blue }),
 
 		-- requirements.txt
 		requirementsPackageName({ fg = override_dark_pink }),
