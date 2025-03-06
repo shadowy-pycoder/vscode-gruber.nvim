@@ -887,9 +887,23 @@ local theme = lush(function(injected_functions)
 		sym("@boolean.yaml")({ fg = dark_blue }),
 
 		-- requirements.txt
-		requirementsPackageName({ fg = override_dark_pink }),
+		requirementsPackageName({ fg = override_dark_blue }),
 		requirementsVersionSpecifiers({ fg = norm_fg }),
 		requirementsVersionControls({ fg = brown }),
+
+		-- fugitive
+		fugitiveHeader({ fg = override_blue_green}),
+		fugitiveUnstagedHeading({ fg = yellow_orange}),
+		fugitiveUnstagedModifier({ fg = yellow_orange}),
+		fugitiveStagedHeading({ fg = ok_green}),
+		fugitiveStagedModifier({ fg = ok_green}),
+		fugitiveUntrackedHeading({ fg = override_dark_blue}),
+		fugitiveUntrackedModifier({ fg = override_dark_blue}),
+		fugitiveHelpTag({ fg = override_blue_green}),
+		gitcommitHeader({ fg = override_blue_green}),
+		gitcommitSelectedType({ fg = override_light_blue}),
+		gitcommitSelectedFile({ fg = override_light_blue}),
+		gitcommitBranch({ fg = override_light_blue}),
 	}
 end)
 ---@diagnostic enable
