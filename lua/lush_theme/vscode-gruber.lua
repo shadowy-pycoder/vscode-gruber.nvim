@@ -904,6 +904,9 @@ local theme = lush(function(injected_functions)
 		gitcommitSelectedType({ fg = override_light_blue}),
 		gitcommitSelectedFile({ fg = override_light_blue}),
 		gitcommitBranch({ fg = override_light_blue}),
+		gitcommitSummary({ fg = override_light_blue}),
+		gitcommitOverflow({ fg = override_light_blue}),
+		gitcommitBlank({ fg = override_light_blue}),
 	}
 end)
 ---@diagnostic enable
